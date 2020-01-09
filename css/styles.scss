@@ -1,0 +1,33 @@
+@import "./colors";
+
+// Body styles
+body {
+  font-family: "Lato", sans-serif;
+}
+
+// Navigation Styles
+nav {
+  padding: 1rem;
+  background-color: $dark-blue;
+
+  img {
+    position: absolute;
+    top: 0;
+    margin-top: 5px;
+    width: 70px;
+
+    @media only screen and (min-width: 700px) {
+      margin-top: 15px;
+    }
+  }
+
+  h1 {
+    font-size: 2vmax;
+    padding: 1rem;
+    color: white;
+  }
+}
+
+h1 {
+  color: blue;
+}

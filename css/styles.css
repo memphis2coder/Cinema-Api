@@ -1,0 +1,32 @@
+body {
+  font-family: "Lato", sans-serif;
+}
+
+nav {
+  padding: 1rem;
+  background-color: #1b262c;
+}
+
+nav img {
+  position: absolute;
+  top: 0;
+  margin-top: 5px;
+  width: 70px;
+}
+
+@media only screen and (min-width: 700px) {
+  nav img {
+    margin-top: 15px;
+  }
+}
+
+nav h1 {
+  font-size: 2vmax;
+  padding: 1rem;
+  color: white;
+}
+
+h1 {
+  color: blue;
+}
+/*# sourceMappingURL=styles.css.map */
